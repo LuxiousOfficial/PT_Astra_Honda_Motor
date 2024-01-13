@@ -132,6 +132,6 @@ delay: 200
 
 
 ScrollReveal().reveal('.kedua h2, .ketiga h2, .keempat h2, .keenam h2, .ketujuh h2', {origin: 'top'});
-ScrollReveal().reveal('.kedua .kereta .matic, .ketiga .kereta .sport, .keempat .kereta .cub, .keenam .berita, .ketujuh .youtube', {origin: 'bottom'});
+ScrollReveal().reveal('.kedua .kereta, .ketiga .kereta, .keempat .kereta, .keenam .berita, .ketujuh .youtube', {origin: 'bottom'});
 ScrollReveal().reveal('', {origin: 'left'});
 ScrollReveal().reveal('', {origin: 'right'});
