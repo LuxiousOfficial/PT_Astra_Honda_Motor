@@ -1,8 +1,9 @@
 
 const navigasiNav = document.querySelector('.navigasi-nav');
 
-document.querySelector('#humberger-menu').onclick = () => {
+document.querySelector('#humberger-menu').onclick = (e) => {
 	navigasiNav.classList.toggle('active');
+	e.preventDefault();
 };
 
 const humberger = document.querySelector('#humberger-menu');
