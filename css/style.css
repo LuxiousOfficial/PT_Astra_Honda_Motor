@@ -1,0 +1,274 @@
+.navigasi {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.home-slider {
+    margin-top: 3.9rem;
+}
+
+/* Matic */
+
+.home-matic .container h3 {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+}
+
+.home-matic .container .card {
+    border: 2px solid white;
+    border-radius: 1rem;
+    margin: auto;
+    transition: .5s;
+}
+
+.home-matic .container .card:hover {
+    transform: scale(1.03);
+    border-color: red;
+}
+
+.home-matic .container .card .card-title {
+    font-size: 1.7rem;
+}
+
+.home-matic .container .card .hargamulai {
+    font-size: 1.2rem;
+}
+
+.home-matic .container .card .harga {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.home-matic .container .btn:hover {
+    background-color: white;
+    color: red;
+}
+
+/* End Matic */
+
+/* Sport */
+
+.home-sport .container h3 {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+}
+
+.home-sport .container .card {
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.home-sport .container .card:hover {
+    border-color: red;
+    transform: scale(1.03);
+}
+
+.home-sport .container .card-title {
+    font-size: 1.7rem;
+}
+
+.home-sport .container .card .hargamulai {
+    font-size: 1.2rem;
+}
+
+.home-sport .container .card .harga {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.home-sport .container .btn:hover {
+    background-color: white;
+    color: red;
+}
+
+/* End Sport */
+
+/* Cub */
+
+.home-cub .container h3 {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+}
+
+.home-cub .container .card {
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.home-cub .container .card:hover {
+    border-color: red;
+    transform: scale(1.03);
+}
+
+.home-cub .container .card-title {
+    font-size: 1.7rem;
+}
+
+.home-cub .container .card .hargamulai {
+    font-size: 1.2rem;
+}
+
+.home-cub .container .card .harga {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.home-cub .container .btn:hover {
+    background-color: white;
+    color: red;
+}
+
+/* End Cub */
+
+/* EM1 */
+.home-em1 .container h3 {
+    margin-top: 6rem;
+    font-size: 2.4rem;
+}
+
+.home-em1 .container .card {
+    border: 2px solid white;
+    margin: auto;
+    border-radius: 1rem;
+    transition: .5s;
+}
+
+.home-em1 .container .card:hover {
+    border-color: red;
+    transform: scale(1.03);
+}
+
+.home-em1 .container .card-title {
+    font-size: 1.7rem;
+}
+
+.home-em1 .container .card .hargamulai {
+    font-size: 1.2rem;
+}
+
+.home-em1 .container .card .harga {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.home-em1 .container .btn:hover {
+    background-color: white;
+    color: red;
+}
+/* End EM1 */
+
+/* Home Press Release */
+
+.home-release {
+    margin-top: 6rem;
+    padding: 0 1rem;
+}
+
+.home-release .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.home-release .card-body p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.home-release .card-body a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.home-release .card-body a:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+/* EndHome press release */
+
+/* Artikel Racing */
+
+.home-racing {
+    margin-top: 6rem;
+}
+
+.home-racing .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.home-racing .card-body p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.home-racing .card-body a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.home-racing .card-body a:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+/* End Artikel Racing */
+
+/* Youtube */
+
+.home-youtube {
+    margin-top: 6rem;
+    padding: 0 1rem;
+}
+
+.home-youtube .carousel-inner iframe {
+    width: 100%;
+    height: 35rem;
+}
+
+/* End Youtube */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+
+    .home-youtube .carousel-inner iframe {
+        height: 22rem;
+    }
+}
